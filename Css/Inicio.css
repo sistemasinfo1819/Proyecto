@@ -1,0 +1,103 @@
+body{background: white; 
+    font-family: 'Raleway', sans-serif;
+     
+}
+
+h1 {
+color: blue;
+}
+
+
+body
+{
+	margin: 0px;
+	background: #ccccff; 
+}
+
+.menu-main{
+	display: flex;
+	justify-content: space-between;
+	background: #666666;
+	border-bottom: 1px solid #29487d;
+	height: 45px;
+}
+
+.menu-main a{
+	flex: 1;
+	font-family: arial;
+	display: flex;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-main a:hover{
+	background: rgba(0,0,0,.1);
+}
+
+.menu-main a.active{
+	background-color: #333333;
+}
+
+@media (max-width:768px){
+.menu-main{
+	height: auto;
+	border-bottom: 0px;
+	display: block;
+}
+
+.menu-main{
+	height: 45px;
+	border-bottom: 1px solid #333333;
+}
+
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+div.container {
+ 
+  width: 200px;
+  
+  display:inline-flex;
+
+
+}
+.card{
+    margin: 50px ;
+}
+
+section{
+    background: #6b075a;
+}
+
+.encabezado{
+
+    display: flex;
+    margin: 20px;
+}
+
+.encabezado button{
+
+    margin: 20px;
+}
+
+.Factura{
+
+border-style: solid;
+border-color: black;
+}
+
+.subcontainer{
+
+        margin: 10px;
+
+}
